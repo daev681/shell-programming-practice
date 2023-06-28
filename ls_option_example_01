@@ -1,0 +1,7 @@
+#! /bin/sh
+
+data=$1
+
+option=$data
+
+ls -"$option"
