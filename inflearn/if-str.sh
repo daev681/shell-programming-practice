@@ -1,0 +1,16 @@
+#!/bin/bash
+
+A="hello"
+B="world"
+
+if [ "$A" == "$B" ]; then
+	echo "TRUE"
+else
+	echo "FALSE"
+fi
+
+if [ $A == $B ]; then
+        echo "TRUE"
+else
+        echo "FALSE"
+fi
